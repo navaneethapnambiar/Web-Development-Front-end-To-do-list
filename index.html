@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scaler=1">
+       <title>Single page website | Minor project</title>
+       <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <style>
+        .color-teal{
+            color: teal;
+        }
+        .icon-lg{
+            font-size: 50px;
+        }
+        .icon-sm{
+            font-size: 25px;
+
+        }
+        .remove-text-decoration{
+            text-decoration: none;
+            
+        }
+        .remove-bullets {
+            list-style: none;
+            
+        }
+       </style>
+   </head>
+   <body>
+       <header>
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <div class="container-fluid">
+                   <a href="#" class="navbar-brand">
+                       <img src="assets/logo.Png.png" height="50" alt="Brand Logo">
+                   </a>
+                   <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                       <i class="bi bi-list"></i>
+                   </button>
+                   <div class="collapse navbar-collapse" id="navbar1">
+                       <div class="navbar-nav ms-auto">
+                       <a href="#" class="nav-item- nav-link active">Home</a>
+                       <div class="nav-item dropdown">
+                           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                           <div class="dropdown-menu">
+                               <a href="#" class="dropdown-item">Comapny</a>
+                               <a href="#" class="dropdown-item">Team</a>
+                           </div>
+                       </div>
+                       <a href="#" class="nav-item nav-link">Contact Us</a>
+                   </div>
+               </div>
+               </div>
+           </nav>
+           <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="Carousel 1" style="max-height: 100vh;">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="Carousel 2" style="max-height:100vh;">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="Carousel 3" style="max-height:100vh;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide-to="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide-to="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+       </header>
+       <main class="m-5">
+        <section class="container m-4" id="about-us">
+            <h6 class="display-5 text-center">About Us</h6>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="container">
+                        <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="About Us">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <p class="text=black-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatem ipsam veniam, animi odit voluptatum, officia cumque voluptates consectetur minima eligendi amet similique molestias, atque et id quia doloremque autem!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, incidunt vel ipsa ullam error, recusandae necessitatibus nisi, exercitationem magnam itaque dolorum illo rem maxime nam ab id quidem qui aperiam ?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsa dolorum inventore aut? Repellendus facere quaerat eum tempore est? Temporibus pariatur tempora soluta molestiae itaque odit deserunt vero eos quasi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quod, fugit fugiat rem iure, ducimus doloremque distinctio maxime non illum cumque expedita eius illo esse laborum? Id quos culpa distinctio.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <h6 class="display-6 text-center">What Makes us Unique</h6>
+                <div class="col-md-4">
+                    <div class="container text-center">
+                        <span class="bi bi-person color-teal icon-lg"></span>
+                        <p>Custom Trailored user Options</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container text-center">
+                        <span class="bi bi-shield-shaded color-teal icon-lg"></span>
+                        <p>Privacy First Approach</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container text-center">
+                        <span class="bi bi-list color-teal icon-lg"></span>
+                        <p>Multiple Variations</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="container m-4">
+            <h6 class="display-5 text-center">Our Innovative Team</h6>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <div class="card" style="width: 300px;">
+                            <img class="card-img-top" src="https://dummyimage.com/300x300/000/fff&text=Sample+Image">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Team Member 1</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedinicon-sm m-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <div class="card" style="width: 300px;">
+                            <img class="card-img-top" src="https://dummyimage.com/300x300/000/fff&text=Sample+Image">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Team Member 1</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <div class="card" style="width: 300px;">
+                            <img class="card-img-top" src="https://dummyimage.com/300x300/000/fff&text=Sample+Image">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Team Member 1</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <i class="bi bi-facebook icon-sm m-2"></i>
+                                <i class="bi bi-instagram icon-sm m-2"></i>
+                                <i class="bi bi-linkedin icon-sm m-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="container m-4">
+            <h6 class="display-5 text-center">Contact Us</h6>
+            <div class="col-md-6">
+                <div class="container p-3">
+                    <p class="text-muted text-center fs-3">Here's our contact Info</p>
+                    <div class="text-black-s text-center fs-4">Our Email</div>
+                    <div class="text-black-50 text-center fs-5">support@example.com</div>
+                    <div class="text-black-s text-center fs-4">Our Phone No.</div>
+                    <div class="text-black-50 text-center fs-5">+91 92345 12343</div>
+                    <div class="text-black-s text-center fs-4">Our Address</div>
+                    <div class="text-black-50 text-center fs-5">HSR Layout,Bengalore <br> Karnatake 560 xxx</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="container p-3">
+                    <p class="text-muted text-center fs-3">You can also write to Us</p>
+                    <div class="container">
+                        <div class="card-shadow">
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Enter Your Name</label>
+                                        <input type="text" class="form-control" name="name" id="name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="emailid" class="form-label">Enter Your Email</label>
+                                        <input type="email" class="form-control" name="email" id="emailid">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">Enter the subject</label>
+                                        <input type="text" class="form-control" name="subject" id="subject">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">Enter Your Message</label>
+                                        <textarea class="form-control" name="message" id="message"></textarea>
+                                    </div>
+                                    <div class="form-group text-center">
+                                        <input type="submit" class="btn btn-outline-dark" value="send Message">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+       </main>
+       <footer class="bg-dark">
+            <div class="container m-5">
+                <div class="row">
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container m-5">
+                            <img src="assets/logo.Png.png" height="30px" class="bg-white">
+                            <div>
+                                <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex cumque praesentium perferendis veritatis natus accusantium assumenda molestias atque sed eius! Animi odio eligendi earum, aut maiores perferendis minus qui magni.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="container m-5" >
+                                <p class="text-white fs-5">Quick Links</p>
+                                <ul class="remove-bullets remove-text-decoration">
+                                    <li><a href="#" class="remove-text-decoration text-white">About Us</a></li>>
+                                    <li><a href="#" class="remove-text-decoration text-white">Contact Us</a></li>>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="text-white text-center">
+                        <p>All rights reservered &copy 2023, <a href="1Stop.ai>">1Stop.ai</a></p>
+                    </div>
+                </div>
+            </div>
+        
+       </footer>
+       <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script src="vendor/bootstrap/js/bootstrap.js"></script>
+   </body>
+</html>
